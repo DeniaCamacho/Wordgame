@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+#game {
+  display: flex;
+  flex-direction: column;
+}
+#buttons {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#word {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 50px;
+}
